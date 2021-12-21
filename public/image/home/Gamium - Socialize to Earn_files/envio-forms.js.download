@@ -1,0 +1,67 @@
+const regexp = new RegExp(
+  "^[a-z0-9]+(.[_a-z0-9]+)*@[a-z0-9-]+(.[a-z0-9-]+)*(.[a-z]{2,15})$"
+);
+const urlCommunity = "https://frontal.gamium.world/community_callback/";
+
+//Envio de formulario seccion 8 version web
+document.getElementById("menu-form").addEventListener("submit", (e) => {
+  e.preventDefault();
+  const $email = document.getElementById("email");
+  const $btnOcultar = document.getElementById("8-web-email");
+  const $webOkMessage = document.getElementById("8-web-ok");
+  const $contanerEmail = document.getElementById("8-web-email-container");
+
+  //valido el $email de texto email
+  if (!regexp.exec($email.value)) {
+    $email.classList.remove("email-form-valid");
+    $email.classList.add("email-form-invalid");
+    $email.value = "Invalid email";
+    return;
+  } else {
+    const params = requestOptions($email.value);
+    fetch(urlCommunity, params)
+      .then((response) => {
+        response.text();
+      })
+      .then((result) => {
+        $email.classList.remove("email-form-invalid");
+        $email.classList.add("email-form-valid");
+        $email.value = "Email sent";
+        $webOkMessage.classList.remove("no-mostrar");
+        $webOkMessage.classList.add("efecto-response-ok");
+        $btnOcultar.classList.add("no-mostrar");
+
+        setTimeout(() => {
+          $webOkMessage.classList.remove("efecto-response-ok");
+          $email.classList.remove("email-form-valid");
+          $contanerEmail.classList.add("efecto-boton-fade");
+          $email.value = "";
+          $webOkMessage.classList.add("no-mostrar");
+          $btnOcultar.classList.remove("no-mostrar");
+          $btnOcultar.classList.add("efecto-boton-fade");
+        }, 4000);
+      })
+      .catch((error) => {
+        console.log("error", error);
+      });
+  }
+});
+
+function requestOptions(email) {
+  let myHeaders = new Headers();
+  myHeaders.append("mode", "no-cors");
+  myHeaders.append("Access-Control-Allow-Origin", "*");
+
+  let formdata = new FormData();
+  formdata.append("email", email);
+
+  let requestOptions = {
+    method: "POST",
+    mode: "no-cors",
+    headers: myHeaders,
+    body: formdata,
+    redirect: "follow",
+  };
+
+  return requestOptions;
+}

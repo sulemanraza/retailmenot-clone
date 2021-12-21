@@ -1,0 +1,138 @@
+let db = {
+  en: {
+    slide_1: {
+      headline_1: "The center of the metaverse.",
+      copy_1:
+        "Gamium uses blockchain technology and token standards to create the first metaverse that interconnects all of them, making avatars and assets multi-metaverse compatible. Create your avatar, exchange NFTs, get a job, socialize, and earn in the Gamium world.",
+      button_1: "Whitepaper",
+      clickme_1: "Click",
+      clickme_2: "Start the journey.",
+    },
+    slide_2: {
+      button_1: "Read more",
+      headline_1: "The first decentralized social metaverse.",
+      copy_1:
+        "Unlocking the full potential of the metaverse step by step. We combine current social network features with a 3D fully immersive Gamium world, built on Unreal Engine.",
+    },
+    slide_3: {
+      headline_1: "The avatar: build your digital identity.",
+      copy_1:
+        "Humans will be represented by avatars in the metaverse, that’s why you should have yours already. Merge your soul into the Gamium NFT avatar and start building your digital identity that will be used across all the metaverses.",
+      button_1: "Join the AGE",
+      headline_2: "Getting the digital id right.",
+      copy_2:
+        "Our avatar is the only digital identity portable, persistent, non-corruptible, and verifiable using digital signatures and blockchain technology. Link assets and trusted blockchain data to your avatar and expand the possibilities of the metaverse.",
+      button_2: "Join the AGE",
+    },
+    slide_4: {
+      headline_1: "Enjoy multiple built-in social features.",
+      copy_1:
+        "Gamium will release multiple social features for their avatars such as applications, a marketplace, DeFi and many more. Find out all the benefits of the decentralized social metaverse, where the digital society is being built.",
+      button_1: "Read more",
+      headline_2: "Socialize to earn: rewards for socializing.",
+      copy_2:
+        "Gamium is the pioneer of the economic model ‘Socialize to Earn’, where avatars are rewarded for socializing. Monetize all your social interactions in a fully gamified space.",
+      button_2: "Read more",
+    },
+    slide_5: {
+      button_1: "Tokenomics",
+      headline_1: "Gamium’s economy: $GMM and $MST.",
+      copy_1:
+        "Gamium’s economy is empowered by two tokens, $GMM and $MST$: $GMM is the Gamium governance and medium of exchange token, while $MST is our utility and reward token in the heart of the Gamium economy.",
+    },
+    burger_menu: {
+      launch_app: "Launch App",
+      input_text: "Stay in the loop",
+      input_btn: "Sign up",
+      input_thanks: "Your registration has been submited. Thank you!",
+      sections_title: "Sections",
+      section_1: "Gamium",
+      section_2: "Social Metaverse",
+      section_3: "Avatar",
+      section_4: "Social Features",
+      section_5: "Economy",
+      resources_title: "Resources",
+      resource_1: "Whitepaper",
+      resource_2: "Roadmap",
+      resource_3: "Tokenomics",
+      social_media_title: "Social Media",
+      social_1: "Instagram",
+      social_2: "Twitter",
+      social_3: "Discord",
+      social_4: "Telegram",
+      social_5: "Medium",
+    },
+    ani_controls: {
+      slide_down: "Slide down",
+      scroll_down: "Scroll down",
+    },
+  },
+  es: {
+    slide_1: {
+      headline_1: "El centro del metaverso.",
+      copy_1:
+        "Gamium utiliza la tecnología blockchain y los estándares de tokens para crear el primer metaverso que los interconecta a todos, haciendo que los avatares y los activos sean interoperables entre múltiples metaversos. Crea tu avatar, intercambia NFTs, consigue un trabajo, socializa y genera en el mundo Gamium.",
+      button_1: "Whitepaper",
+      clickme_1: "Click",
+      clickme_2: "Empezar el viaje",
+    },
+    slide_2: {
+      button_1: "Leer más",
+      headline_1: "El primer metaverso social descentralizado.",
+      copy_1:
+        "Liberamos todo el potencial del metaverso paso a paso. Combinamos las características actuales de las redes sociales con las del mundo de Gamium, totalmente inmersivo en 3D y construido en Unreal Engine.",
+    },
+    slide_3: {
+      headline_1: "El avatar: construye tu identidad digital.",
+      copy_1:
+        "Los humanos serán representados por avatares en el metaverso, por ello deberías tener ya el tuyo. Fusiona tu alma con el NFT avatar de Gamium y empieza a construir tu identidad digital que se utilizará en todos los metaversos.",
+      button_1: "Únete al AGE",
+      headline_2: "Obteniendo el id digital correcto.",
+      copy_2:
+        "Nuestro avatar es la única identidad digital portátil, persistente, no corrompible y verificable mediante firmas digitales y tecnología blockchain. Vincula activos y datos fiables de la blockchain a tu avatar y amplía las posibilidades del metaverso.",
+      button_2: "Únete al AGE",
+    },
+    slide_4: {
+      headline_1: "Disfruta de múltiples herramientas sociales integradas.",
+      copy_1:
+        "Gamium ofrecerá múltiples herramientas sociales para sus avatares, como aplicaciones, un mercado, DeFi y muchas más. Descubre todos los beneficios del metaverso social descentralizado, donde se está construyendo la sociedad digital.",
+      button_1: "Leer más",
+      headline_2: "Socializar para ganar: recompensas por socializar.",
+      copy_2:
+        "Gamium es el pionero del modelo económico 'Socialize to Earn', donde los avatares son recompensados por socializar. Monetiza todas tus interacciones sociales en un espacio totalmente gamificado.",
+      button_2: "Leer más",
+    },
+    slide_5: {
+      button_1: "Tokenomics",
+      headline_1: "Economía de Gamium: $GMM y $MST.",
+      copy_1:
+        "La economía de Gamium está potenciada por dos tokens, $GMM y $MST$: $GMM es el token de gobernanza y medio de intercambio de Gamium, mientras que $MST es nuestro token de utilidad y recompensa en el corazón de la economía de Gamium.",
+    },
+    burger_menu: {
+      launch_app: "Lanzar App",
+      input_text: "No te pierdas nada",
+      input_btn: "Inscribirse",
+      input_thanks: "Your registration has been submited. Thank you!",
+      sections_title: "Secciones",
+      section_1: "Gamium",
+      section_2: "Metaverso social",
+      section_3: "Avatar",
+      section_4: "Características sociales",
+      section_5: "Economía",
+      resources_title: "Recursos",
+      resource_1: "Whitepaper",
+      resource_2: "Roadmap",
+      resource_3: "Tokenomics",
+      social_media_title: "Redes Sociales",
+      social_1: "Instagram",
+      social_2: "Twitter",
+      social_3: "Discord",
+      social_4: "Telegram",
+      social_5: "Medium",
+    },
+    ani_controls: {
+      slide_down: "Desliza",
+      scroll_down: "Scroll",
+    },
+  },
+};
